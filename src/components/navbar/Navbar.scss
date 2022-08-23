@@ -1,0 +1,32 @@
+.navbar {
+width: 100%;
+height: 100px;
+display: block;
+border:1px solid red;
+display: flex;
+justify-content: space-between;
+}
+
+.logo img {
+  margin:30px 60px;
+  width: 180px;
+  cursor:pointer;
+
+}
+
+.logo-container  {
+  width:300px;
+  border-right:1px solid#E8E8E8;
+}
+.right-menu {
+   border:1px solid blue;
+    display: flex;
+    
+  }
+
+
+.icons {
+  display: flex;
+  align-items: center;
+
+}

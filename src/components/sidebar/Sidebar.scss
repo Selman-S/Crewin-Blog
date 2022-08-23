@@ -1,0 +1,37 @@
+
+.sidebar {
+  width: 300px;
+  position: fixed;
+
+ height: calc(100vh - 100px);
+
+ border-right: 1px solid #E8E8E8;
+ padding: 60px 18px;
+
+
+}
+
+.nav-menu {
+
+}
+.nav-item {
+  margin-bottom: 12px;
+  line-height:44px;
+  display: flex;
+ text-decoration: none;
+ color: #7A7A7A;
+ height: 44px;
+ border-radius: 10px;
+ &:hover {
+  background: rgba(19, 78, 112, 0.25);
+  color:#134E70;
+ }
+ & span {
+  margin-left: 12px;
+  margin-right: 1rem;
+
+ }
+ & p {
+  line-height: 40px;
+ }
+}
