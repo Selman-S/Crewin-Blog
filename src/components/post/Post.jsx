@@ -1,14 +1,18 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Post.scss'
 import { BsThreeDotsVertical } from 'react-icons/bs';
 
 
 const Post = ({post}) => {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(null);
   const {post_title,desc} = post
+
+  useEffect(() => {
+ 
+  }, []);
   return (
     <div className="post">
-      <div className="three-point">
+      <div className="three-point" onClick={() => setToggle(!toggle)}>
         <BsThreeDotsVertical />
         <div className="edit" style={{display:toggle ? 'block':'none'}}>
           <div className="edit-links">
