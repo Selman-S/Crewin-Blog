@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.scss';
 import logo from '../../assets/image/nav-logo.png'
-import { IoNotificationsOutline } from "react-icons/io5";
+import { IoNotificationsOutline,IoMailOutline } from "react-icons/io5";
 
 
 const Navbar = () => {
@@ -16,7 +16,9 @@ const Navbar = () => {
       
       <div className="right-menu">
         <div className="icons">
-        <IoNotificationsOutline/>
+        <IoMailOutline size={20}/>
+        <IoNotificationsOutline  size={20}/>
+        <div className="user" style={{background:'url(https://avatars.githubusercontent.com/u/97898216?v=6)'}}></div>
         </div>
       </div>
    
