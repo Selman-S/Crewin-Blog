@@ -1,0 +1,61 @@
+.post {
+  min-width: 500px;
+ padding: 24px;
+ box-shadow: 0px 4px 17px rgba(135, 135, 135, 0.11);
+ margin-bottom: 24px;
+ border-radius: 15px;
+ position: relative;
+}
+.post-title {
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+.post-desc {
+  margin-top: 24px ;
+  color: #ababab;
+  font-size: 14px;
+
+}
+.three-point {
+  position: absolute;
+  right:24px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.edit {
+  position: absolute;
+  width: 91px;
+  height: 74px;
+  left:-40px;
+  z-index: 1;
+  background-color: #fff;
+  border-radius: 10px;
+  display:none;
+
+
+  box-shadow: 0px 4px 17px rgba(135, 135, 135, 0.11);
+}
+
+.edit p {
+  text-decoration: none;
+  color:#7A7A7A;
+  font-size: 14px;
+ 
+  padding: 10px;
+  cursor: pointer;
+}
+.edit p:hover {
+  background-color: #eee;
+}
+
+.edit-link:hover {
+border-radius: 15px 15px 0 0;
+}
+
+
+.delete-link {
+  border-radius: 0 0 15px 15px;
+
+}

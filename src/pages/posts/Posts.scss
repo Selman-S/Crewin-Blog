@@ -1,9 +1,14 @@
 .posts{
   margin-left: 300px;
   width: calc(100% - 300px);
-  background-color: rgb(220, 233, 45);
-  padding: 0 68px;
+
+  padding: 0 75px 0 68px;
 }
 .posts .title {
   font-size: 18px;
 } 
+
+.post-container {
+gap:24px;
+margin-top: 24px;
+}
