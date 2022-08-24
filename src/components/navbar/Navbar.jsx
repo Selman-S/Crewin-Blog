@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.scss';
-import logo from '../../assets/image/nav-logo.png'
+import logo from '../../assets/image/crewin logo.png'
 import { IoNotificationsOutline,IoMailOutline } from "react-icons/io5";
 
 
