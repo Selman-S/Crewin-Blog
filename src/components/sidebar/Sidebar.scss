@@ -2,12 +2,15 @@
 .sidebar {
   width: 300px;
   position: fixed;
+  top:104px;
 
  height: calc(100vh - 100px);
-
+background-color: #fff;
  border-right: 1px solid #E8E8E8;
  padding: 60px 18px;
-
+ @media (max-width: 1100px) {
+  display: none;
+ }
 
 }
 
