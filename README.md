@@ -6,7 +6,7 @@
 
 <br>
 
-[Click Me!]([https://selman-react-data-table-countries.vercel.app/](https://crewin-blog.vercel.app/))
+[Click Me!](https://crewin-blog.vercel.app/)
 
 <br>
 
