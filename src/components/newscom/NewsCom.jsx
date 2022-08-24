@@ -7,14 +7,14 @@ const NewsCom = ({newsItem}) => {
   return (
     <div className='news'>
       <div className="news-image" style={{backgroundImage:`url(${image})`}}>
-
-      </div>
-      <div className="news-title">
+<div className="news-title">
         <h3>
         {title}
 
         </h3>
       </div>
+      </div>
+      
     </div>
   )
 }
