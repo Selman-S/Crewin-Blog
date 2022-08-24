@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../../components/navbar/Navbar'
+
 import './Users.scss'
 import {data} from '../../helper/data'
 import Card from '../../components/card/Card'

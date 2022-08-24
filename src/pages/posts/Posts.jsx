@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../../components/navbar/Navbar'
+
 import './Posts.scss'
 import {posts} from '../../helper/data'
 import Post from '../../components/post/Post'
