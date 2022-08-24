@@ -1,5 +1,6 @@
 .users {
   margin-left: 300px;
+  padding: 0 68px;
   
 
 }
@@ -7,4 +8,13 @@
 .card-container {
   display: flex;
   flex-wrap: wrap;
+}
+
+.users .title {
+  font-size: 18px;
+} 
+
+.card-container {
+  margin-top: 24px;
+  gap:24px;
 }

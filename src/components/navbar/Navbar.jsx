@@ -17,8 +17,8 @@ const Navbar = () => {
       <div className="right-menu">
         <div className="icons">
         <IoMailOutline size={20}/>
-        <IoNotificationsOutline  size={20}/>
-        <div className="user" style={{background:'url(https://avatars.githubusercontent.com/u/97898216?v=6)'}}></div>
+        <IoNotificationsOutline  size={20}/> <a href="https://github.com/Selman-S" target="_blank">
+        <div className="user" style={{backgroundImage:'url(https://avatars.githubusercontent.com/u/97898216?v=6)'}}>  </div></a>
         </div>
       </div>
    

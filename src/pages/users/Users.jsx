@@ -9,11 +9,11 @@ const Users = () => {
   console.log(data);
   return (
     <div className="users">
-<h1>Users</h1>
+<h1 className="title">Users</h1>
 <div className="card-container">
 
     {data.map((user) =>
-    <Card user={user}/>
+    <Card user={user} key={user.id}/>
     )}
     </div>
     </div>

@@ -74,3 +74,36 @@ export const data = [
   },
 
 ]
+
+export const posts = [
+  {
+    id:1,
+    post_title:'Post Title',
+    desc:'animi esse sit aut sit nesciunt assumenda eum voluptas\nquia voluptatibus provident quia necessitatibus ea\nrerum repudiandae quia voluptatem delectus fugit aut id quia\nratione optio eos iusto veniam iure'
+  },
+  {
+    id:2,
+    post_title:'Post Title',
+    desc:'animi esse sit aut sit nesciunt assumenda eum voluptas\nquia voluptatibus provident quia necessitatibus ea\nrerum repudiandae quia voluptatem delectus fugit aut id quia\nratione optio eos iusto veniam iure'
+  },
+  {
+    id:3,
+    post_title:'Post Title',
+    desc:'animi esse sit aut sit nesciunt assumenda eum voluptas\nquia voluptatibus provident quia necessitatibus ea\nrerum repudiandae quia voluptatem delectus fugit aut id quia\nratione optio eos iusto veniam iure'
+  },
+  {
+    id:4,
+    post_title:'Post Title',
+    desc:'animi esse sit aut sit nesciunt assumenda eum voluptas\nquia voluptatibus provident quia necessitatibus ea\nrerum repudiandae quia voluptatem delectus fugit aut id quia\nratione optio eos iusto veniam iure'
+  },
+  {
+    id:5,
+    post_title:'Post Title',
+    desc:'animi esse sit aut sit nesciunt assumenda eum voluptas\nquia voluptatibus provident quia necessitatibus ea\nrerum repudiandae quia voluptatem delectus fugit aut id quia\nratione optio eos iusto veniam iure'
+  },
+  {
+    id:6,
+    post_title:'Post Title',
+    desc:'animi esse sit aut sit nesciunt assumenda eum voluptas\nquia voluptatibus provident quia necessitatibus ea\nrerum repudiandae quia voluptatem delectus fugit aut id quia\nratione optio eos iusto veniam iure'
+  }
+]
