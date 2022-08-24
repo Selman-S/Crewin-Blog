@@ -7,6 +7,7 @@ const Dashbord = () => {
 
   return (
     <div className="dashboard">
+      <h1 className="title">News</h1>
          <div className="news-container">
           {news.map((newsItem) =>
           <NewsCom newsItem={newsItem} key={newsItem.id}/>

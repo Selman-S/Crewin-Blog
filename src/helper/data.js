@@ -6,12 +6,13 @@ import image4 from '../assets/image/image-4.png'
 import image5 from '../assets/image/image-5.png'
 import image6 from '../assets/image/image-6.png'
 import image8 from '../assets/image/image-8.png'
-import newsimage1 from '../assets/news-image/news-1.jpg'
-import newsimage2 from '../assets/news-image/news-2.jpg'
-import newsimage3 from '../assets/news-image/news-3.jpg'
-import newsimage4 from '../assets/news-image/news-4.jpg'
-import newsimage5 from '../assets/news-image/news-5.jpg'
-import newsimage6 from '../assets/news-image/news-6.jpg'
+import newsimage1 from '../assets/news-image/news-1.png'
+import newsimage2 from '../assets/news-image/news-2.png'
+import newsimage3 from '../assets/news-image/news-3.png'
+import newsimage4 from '../assets/news-image/news-4.png'
+import newsimage5 from '../assets/news-image/news-5.png'
+import newsimage6 from '../assets/news-image/news-6.png'
+
 
 export const data = [
   {
@@ -86,39 +87,39 @@ export const news = [
   {
     id:1,
     image:newsimage1,
-    title:'THANK YOU SEAFARERS!',
-    desc:"World Maritime Day, celebrated this year on September 30th, is an annual observance created by the United Nations to recognize the maritime industry’s contribution to the global economy. The International Maritime Organization chose seafarers at the core of shipping’s future as the theme to celebrate this year’s special day. And rightly so, as approximately 90% of global trade is carried on ships. As IMO Secretary-General Kitack Lim succinctly put it, Shipping drives world trade and that trade simply does not happen without seafarers. Around the world, there are over 1.6 million seafarers manning approximately 50,000 merchant ships that transport so many things we depend on in our daily lives, including medical supplies, personal protective equipment, consumer goods, and nearly everything else used in modern society.",
+    title:'Investment breathes new life into Corinth Canal',
+    desc:"The increasing size of commercial ships has reduced the economic importance of Greece’s Corinth Canal, but its temporary reopening on Monday 4 July illustrates that there are still commercial possibilities for this waterway.",
 
   },
   {
     id:2,
     image:newsimage2,
-    title:"FATIGUE BARGES IN ON ANOTHER INCIDENT",
-    desc:"Recently, while under tow by the towing vessel Island Chief, an unmanned barge crashed into a private waterfront home and several privately-owned docks in Gig Harbor, Washington. At the time of the incident, the barge was not carrying any cargo, and it was pulled free by the tug without any injuries, pollution or significant vessel damage. Unfortunately, however, the damages to the affected property are estimated to be over $250,000 and the Investigating Officer has determined this to be a Serious Marine Incident. According to gCaptainsBarge Crashes Into Home in Washington article:“The Coast Guard reports that initial findings indicate that the Island Chief’s [captain] fell asleep while navigating the vessel.” "
+    title:"Boris’ adventures at sea",
+    desc:"Small island communities rely on local shipping lines to deliver goods in the same way that large islands and continents do.The list of items moved on the small ships that serve these remote communities is wide, and includes food, building materials and vehicles. One particular cargo, however, recently carried onboard the palletised-cargo carrier Gry Maritha, pushed the captain’s responsibility towards the ship’s cargo literally over the edge. The 590 gross tonnage ship was on its regular route between Penzance on the UK southeast mainland and Hugh Town on St Mary’s, the largest of the Scilly Isles with a population of around 2000, when two of its passengers – meerkats Doris and Boris – managed to escape from their cage whilst arriving in Penzance, reveals a recent BBC report. After their escape the two meerkats, which were being transported from Saint Mary’s to a zoo on the mainland, ran around on deck, during which time Doris was captured by the crew, said the BBC. Boris, however, “jumped 30ft (10m) into the water”. The ship’s master, Tom Sexton, decided to get into the water and rescue the animal, which weighed just under a kilo. "
   },
   {
     id:3,
     image:newsimage3,
-    title:"USCG WARNS MARINERS AGAINST DISABLING AIS",
-    desc:"The USCG has issued a warning to mariners to not disable their vessel's Automated Identification System (AIS) due to the potential for danger and the legal consequences they could face.As US Coast Guard Sector Columbia River boarding team supervisor Lt. Collin Gruin states, AIS is a vital tool in a host of Coast Guard missions including search and rescue and port security. It's not only illegal to turn it off but also incredibly dangerous.AIS is a maritime navigation safety communications system that automatically transmits vessel information to shore stations, other ships, and aircraft. Vessel identity, type, position, course, speed, navigational status, and safety-related information are included in the transmissions. The communications system also automatically receives such information from similarly fitted ships; monitors and tracks ships; and exchanges data with shore-based facilities."
+    title:"A royal wonder",
+    desc:"Royal Caribbean International’s most recent addition to its fleet, Wonder of the Seas, arrived in the US for the first time on 20 February.The 236,857-gt cruise ship, the largest in the world by gross tonnage, was greeted with great fanfare as it sailed into Fort Lauderdale on the east coast of Florida, where it will spend the next two months sailing the eastern and western Caribbean and visiting Royal Caribbean’s private island, CocoCay. Wonder of the Seas joins four sister Oasis-class ships which are ranked as the largest cruise ships in the world, according to Marine Insight. The vessel is both owned and operated by the US cruise operator, and built by Chantiers de L’Antique in Saint-Nazaire, France. The first steel was cut in April 2019 and it was originally scheduled to begin operations off of China in Q2 last year, but the Coronavirius pandemic delayed delivery and led to a changed itinerary."
   },
   {
     id:4,
     image:newsimage4,
-    title:'MASK-WEARING NOW REQUIRED FOR ALL PASSENGER VESSELS',
-    desc:"The Centers for Disease Control and Prevention (CDC) has issued an Order that requires all persons to wear face masks when boarding, disembarking, and for the duration of travel on conveyances and at transportation hubs within the U.S. to prevent the spread of coronavirus disease 2019 (COVID-19). The Order, which went into effect at 11:59 p.m. ET on Feb. 1, also requires conveyance operators to make best efforts to ensure compliance."
+    title:'When coal cuts out',
+    desc:"The first 21 days of 2022 have not been the best for the dry bulk industry. The Baltic Dry Index (BDI), an indicator of the average prices paid to transport dry bulk cargoes such as coal, was at one of its lowest levels seen over the past year on 20 January. Following a yearly high of 5,650 points on 7 October, the index dropped to 3,353 on 7 December The fall in freight rates seen since October is due in part to reduced coal and iron ore imports to China –  the largest coal importing nation overall    The BDI then dropped further to 1,415 points on 21 January. Already weak rates were compounded by a surprise Indonesian government announcement on 1 January, banning coal exports to curb dwindling supplies of domestically sourced coal at the country’s electric power plants. Indonesia’s energy mix is dependent on coal and nearly all of its electricity is generated through coal-powered infrastructure  The ban, introduced due to fear of nation-wide blackouts, was initially planned for the entire month. But following an inventory evaluation, there were reports by mid January of laden vessels leaving as the government started to allow exports once again."
   },
   {
     id:5,
     image:newsimage5,
-    title:'A MOMENT OF CHAOS, A LIFETIME OF GRIEF',
-    desc:'Infamy is not a term anyone wants to be associated with. But, in the case of a maritime incident gone viral, some of the world’s best and most experienced mariners have unwittingly become infamous. Just like James E. Mercante, Esq., a partner and maritime attorney at Rubin, Fiorella, Friedman & Mercante LLP, states in his recent article “The ‘Ever Given’ Will Ruin More Than Just a Muddy Canal,” “any type of major marine casualty will not only ruin a captain or pilot’s entire day, but can be agonizing and costly for years.”'
+    title:'The MarineTraffic definition of ship tracking',
+    desc:'nderstanding not only where the ships currently are, but also where they have been and will be, translates into more visibility and transparency on what’s happening at sea and enables significant decisions.    From essential daily business operations (such as real-time cargo or fleet tracking) to people simply following the movements of the vessels carrying their loved ones, ship tracking software is widely known and used. But what is ship tracking and how does this system work in practice? What is ship tracking  As the name suggests, ship tracking is the process of monitoring the movements of commercial ships, smaller craft, and other marine vessels. The ship tracking system is a collection of equipment that enables the display of the real-time positions of vessels on a map as well as essential information about each ship.   There are many ship tracking methods, with the most commonly used in the maritime world being the Global Positioning System (GPS) and the Automatic Identification System (AIS).    While GPS is useful as a local/onboard position reporting system, the Automatic Identification System uses the GPS technology and makes the tracking information widely available. AIS transponders have their own GPS receivers built-in (separate from the vessel’s receiver) in order to acquire the vessel’s position and prepare the self-position report that will be transmitted to others via radio frequencies.'
   },
   {
     id:6,
     image:newsimage6,
-    title:'WHO NEEDS THE JONES ACT?',
-    desc:' Whoever could have predicted that a federal law enacted in 1920 would be stirring up so much controversy more than a full century later? Well, that’s precisely what’s happened in recent weeks with the Jones Act, which regulates maritime commerce in the United States. The statute, among other things, requires that ships carrying cargo between the nation’s ports must be U.S.-owned, -built, -crewed, and -registered.'
+    title:'North Sea ‘energiser’',
+    desc:' Early this year (February) the Danish government took the bold move to develop the world’s first artificial island specifically for the capture of green energy. The energy island will be located in the North Sea, around 80 km off the Danish west coast, where, according to energy-focussed fund management company Copenhagen Infrastructure Partners (CIP), “conditions for green energy production based on offshore wind are optimal”.   The island will have a minimum capacity of 3 gigawatts when it starts operating in 2033, with potential for expansion to 10 gigawatts of offshore wind. When running at full capacity the island should be able to supply 10 million households with their energy needs.  According to the Danish Energy Agency, the island’s exact design has not yet been determined. It noted, however, that an island expected to handle 3 gigawatts of offshore wind will likely be the size of at least 120,000 m2 – equivalent to 18 football fields and when expanded, 64 football pitches.'
   }
 ]
 export const posts = [
