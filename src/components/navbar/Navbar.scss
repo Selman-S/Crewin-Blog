@@ -7,6 +7,12 @@ position: fixed;
 display: flex;
 top: 0;
 
+@media (max-width: 1100px) {
+
+  border-bottom: 1px solid#E8E8E8;
+ 
+ }
+
 
 }
 
@@ -27,7 +33,7 @@ margin-bottom:1px;
   border-right:1px solid#E8E8E8;
   @media (max-width: 1100px) {
     border-right:none;
-    border-bottom: 1px solid#E8E8E8;
+    
    
    }
 }
@@ -39,14 +45,23 @@ position:absolute;
     justify-content: end;   top:20px;
     border-bottom: 1px solid #E8E8E8;
     width: calc(100% - 299px);
-    padding:0 75px 22px 0
+    padding:0 75px 22px 0;
+    @media (max-width: 1100px) {
+      border-bottom:none;
+      
+     
+     }
   }
-
-
-.icons {
-  display: flex;
-  align-items: center;
-  gap:25px;
+  
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    gap:25px;
+    @media (max-width: 768px) {
+     visibility: hidden;
+        
+       }
 
 }
 .user {
@@ -57,3 +72,17 @@ position:absolute;
   background-position: center center;
   background-size: contain;
 }
+
+#hamburger {
+  display:none;
+  font-size: 42px;
+
+  cursor: pointer;
+  @media (max-width: 1100px) {
+   display: block;
+   }
+   margin-top: 8px;
+   margin-left: 32px;
+ 
+}
+

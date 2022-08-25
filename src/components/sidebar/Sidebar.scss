@@ -3,20 +3,22 @@
   width: 300px;
   position: fixed;
   top:104px;
-
+  transition:width 1s ease-in-out ; 
  height: calc(100vh - 100px);
 background-color: #fff;
  border-right: 1px solid #E8E8E8;
  padding: 60px 18px;
+ z-index: 1;
  @media (max-width: 1100px) {
-  display: none;
+  width: 0;
+  overflow: hidden;
+  padding:60px 0;
+
  }
 
 }
 
-.nav-menu {
 
-}
 .nav-item {
   margin-bottom: 12px;
   line-height:44px;

@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
 import './Users.scss'
 import {data} from '../../helper/data'
 import Card from '../../components/card/Card'
+import { OpenContext } from '../../context/OpenContext'
 
 
 const Users = () => {
-  console.log(data);
+  const { setOpen } = useContext(OpenContext);
+
+  const handleClose= () => {
+    setOpen(false);
+  }
   return (
-    <div className="users">
+    <div className="users" onClick={handleClose}>
 <h1 className="title">Users</h1>
 <div className="card-container">
 
