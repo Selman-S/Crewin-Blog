@@ -3,7 +3,8 @@
   width: 300px;
   position: fixed;
   top:104px;
-  transition:width 1s ease-in-out ; 
+  transition:width .5s ease-in-out ; 
+  overflow: hidden;
  height: calc(100vh - 100px);
 background-color: #fff;
  border-right: 1px solid #E8E8E8;
